@@ -1,4 +1,4 @@
-# Comprehensive Guide on How to Tunnel your ROMA Localhost Frontend to a Public URL
+<img width="1717" height="1257" alt="image" src="https://github.com/user-attachments/assets/a417df82-243b-45ff-a0f4-dbad61b1c8eb" /># Comprehensive Guide on How to Tunnel your ROMA Localhost Frontend to a Public URL
 
 ---
 ## Step 1: You'll need a VPS. 
@@ -31,6 +31,9 @@ cd docker
 docker compose down
 docker compose up -d
 ```
+You should see something like this:
+
+![Screenshot](./cloudfare3.png)
 
 ## Step 5: 
 Check if there's any error in your installation. Run the command below 
@@ -43,72 +46,73 @@ docker compose logs -f
 
 When you something similar to this image below. 
 
-(img)
+![Screenshot](./couldfare4.png)
+
 
 detach the current screen with CTRL+A, then D
 
 ## Step 7: 
 
-create a new terminal with CTRL+SHIFT+C or or click the "+" button at the top right corner of your current terminal 
+create a new terminal with CTRL+SHIFT+C or  click the "+" button at the top right corner of your current terminal 
 
-## Step 8: 
+In the newly created terminal... 
 
-In the new terminal you created... 
-
-Download and install Cloudfared with 
+Download and install Cloudfared with:
 ```
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 sudo dpkg -i cloudflared-linux-amd64.deb
 ```
+
+![Screenshot](./cloudfare5.png)
 
 Optional: Very cloudfared installation with
 ```
 cloudflared --version
 ```
 
-## Step 9: 
+## Step 8: 
 
 Create a new screen with: 
 ```
 screen -S frontend
-```
-
-## Step 10: 
+``` 
 
 After creating a new screen, run: 
 ```
 cloudflared tunnel --url http://localhost:3000
 ```
+![Screenshot](./cloudfare6.png)
+
 Localhost:3000 being your frontend localhost. 
 
 This command will give you a public url for testing that you can share with friends. 
 
-You'll get a url that looks like the image below (if you're not seeing the url, adjust the size of your terminal by dragging the top with your mouse) 
+- You'll get a url that looks like the image below (if you're not seeing the url, adjust the size of your terminal by dragging the top with your mouse) 
 
-Copy the url and save it (don't open yet) 
+- Copy the url and save it (don't open yet) 
 
 Then, detach the current screen with CTRL+A, then D 
 
-## Step 11:
+## Step 9:
 
 Create a new terminal. 
 
 Then create a new screen with: 
 ```
 screen -S backend
-```
+``` 
 
-## Step 12: 
-
-After that, run: 
+After creating a new screen, run: 
 ```
 cloudflared tunnel --url http://localhost:5000
 ```
 You'll get a url just like you did in in step 10. Save that also, it's important. 
 
+![Screenshot](./cloudfare7.png)
+
 Then, detach the current screen with CTRL+A, then D
 
-## Step 13: 
+## Step 10: 
 
 Before you open the link we created in step 10 which is your frontend public url (the url you can share to the public to access the ROMA you created in your VPS) 
 
@@ -118,7 +122,7 @@ You'll see a file named "vite.config.ts"
 
 Open it. It should look like this when you open it: 
 
-(img) 
+![Screenshot](./cloudfare8.png)
 
 before 'ngrok.io',
 
@@ -127,9 +131,12 @@ add this:
 '.trycloudflare.com',
 ```
 
-## Step 14: 
+## Step 11: 
 
 You can open/visit the url you copied in step 10. You should be able to open ROMA on any device. 
+
+<img width="3437" height="1312" alt="roma3" src="https://github.com/user-attachments/assets/d98ccb16-a900-4b0d-82a1-5cfa2cf7492b" />
+
 
 Share with your close friends or complete stranger, but be wary of rate limiting.  
 

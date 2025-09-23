@@ -118,7 +118,7 @@ Then, detach the current screen with CTRL+A, then D
 
 Before you open the link we created in step 10 which is your frontend public url (the url you can share to the public to access the ROMA you created in your VPS) 
 
-Open to the ROMA folder in your root. When in the ROMA folder, locate and open the Frontend Folder. 
+Go to the ROMA folder in your root. When in the ROMA folder, locate and open the Frontend Folder. 
 
 You'll see a file named "vite.config.ts" 
 

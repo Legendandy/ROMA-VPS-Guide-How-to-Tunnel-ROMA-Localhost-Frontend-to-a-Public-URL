@@ -1,9 +1,12 @@
 # Comprehensive Guide on How to Tunnel your ROMA Localhost Frontend to a Public URL
 
+---
 
 ## Step 1: You'll need a VPS. 
 
-You can get from contabo.com or PQ Hosting. Contabo is cheaper, you can get a vps for as low as $5 per month, but only accept card payments and require KYC. PQ hosting however accepts crypto payment and doesn't require KYC, but more expensive and less reliable. 
+You can get from Contabo.com or PQ Hosting. Contabo is cheaper, you can get a vps for as low as $5 per month, but they only accept card payments and require KYC. 
+
+PQ hosting, however accepts crypto payment and doesn't require KYC, but more expensive and less reliable than Contabo. 
 
 ## Step 2: Install ROMA on your VPS with this guide
 

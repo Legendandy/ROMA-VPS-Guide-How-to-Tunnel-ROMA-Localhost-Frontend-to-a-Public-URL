@@ -135,7 +135,7 @@ add this:
 
 ## Step 11: 
 
-You can open/visit the url you copied in step 8. You should be able to open ROMA on any device. 
+You can open/visit the url you copied in step 8. You should be able to access ROMA on any device. 
 
 <img width="3437" height="1312" alt="roma3" src="https://github.com/user-attachments/assets/d98ccb16-a900-4b0d-82a1-5cfa2cf7492b" />
 

@@ -1,4 +1,4 @@
-<img width="1717" height="1257" alt="image" src="https://github.com/user-attachments/assets/a417df82-243b-45ff-a0f4-dbad61b1c8eb" /># Comprehensive Guide on How to Tunnel your ROMA Localhost Frontend to a Public URL
+# Comprehensive Guide on How to Tunnel your ROMA Localhost Frontend to a Public URL
 
 ---
 ## Step 1: You'll need a VPS. 

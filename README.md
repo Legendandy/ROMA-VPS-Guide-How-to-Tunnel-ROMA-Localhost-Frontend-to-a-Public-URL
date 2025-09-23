@@ -108,7 +108,7 @@ After creating a new screen, run:
 ```
 cloudflared tunnel --url http://localhost:5000
 ```
-You'll get a url just like you did in in step 10. Save that also, it's important. 
+You'll get a url just like you did in in step 8. Save that also, it's important. 
 
 ![Screenshot](./cloudfare7.png)
 
@@ -116,7 +116,7 @@ Then, detach the current screen with CTRL+A, then D
 
 ## Step 10: 
 
-Before you open the link we created in step 10 which is your frontend public url (the url you can share to the public to access the ROMA you created in your VPS) 
+Before you open the link we created in step 8 which is your frontend public url (the url you can share to the public to access the ROMA you created in your VPS) 
 
 Go to the ROMA folder in your root. When in the ROMA folder, locate and open the Frontend Folder. 
 

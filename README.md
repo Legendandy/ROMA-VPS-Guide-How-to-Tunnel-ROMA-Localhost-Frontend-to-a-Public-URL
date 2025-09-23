@@ -140,7 +140,7 @@ You can open/visit the url you copied in step 8. You should be able to access RO
 <img width="3437" height="1312" alt="roma3" src="https://github.com/user-attachments/assets/d98ccb16-a900-4b0d-82a1-5cfa2cf7492b" />
 
 
-Share with your close friends or complete stranger, but be wary of rate limiting.  
+Share with your close friends or strangers, but be wary of rate limiting.  
 
 You can now close your vps, and start testing ROMA. 
 

@@ -10,6 +10,7 @@ PQ hosting, however accepts crypto payment and doesn't require KYC, but more exp
 
 ## Step 2: Install ROMA on your VPS with this guide
 
+Visit this url
 ```
 https://github.com/MikeMoulder/ROMA-VPS-Guide-With-UI-UX/tree/main
 ```

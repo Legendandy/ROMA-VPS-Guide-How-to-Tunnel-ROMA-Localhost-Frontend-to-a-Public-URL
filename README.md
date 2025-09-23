@@ -10,11 +10,9 @@ PQ hosting, however accepts crypto payment and doesn't require KYC, but more exp
 
 ## Step 2: Install ROMA on your VPS with this guide
 
-Visit this url
-```
-https://github.com/MikeMoulder/ROMA-VPS-Guide-With-UI-UX/tree/main
-```
-When you get to this end of the above guide, where you're about to restart Docker containers. Come back to this guide
+Visit this url <a href="https://github.com/MikeMoulder/ROMA-VPS-Guide-With-UI-UX/tree/main" target="_blank" rel="noopener noreferrer">ROMA VPS Guide by MikeMoulder</a>
+
+When you get to the end of the above guide, where you're about to restart Docker containers. Come back to this guide
 
 ## Step 3: 
 

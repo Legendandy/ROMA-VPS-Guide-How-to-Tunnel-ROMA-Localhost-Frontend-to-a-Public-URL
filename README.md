@@ -140,11 +140,45 @@ You can open/visit the url you copied in step 8. You should be able to access RO
 <img width="3437" height="1312" alt="roma3" src="https://github.com/user-attachments/assets/d98ccb16-a900-4b0d-82a1-5cfa2cf7492b" />
 
 
-Share with your close friends or strangers, but be wary of rate limiting.  
+## Step 12: 
 
-You can now close your vps, and start testing ROMA. 
+Creating a public URL using Uncomplicated Firewall 
 
-Goodbye. 
+- This is the best for API calls
+- Cloudfared has an HTTP timeout of 100 seconds for requests. Pro/Business bumps it higher (600s).
+- UFW gives you unlimited timeout
+
+So let's create a UFW URL. 
+
+## Step 13:
+
+Create a new terminal
+
+Then create a new screen with: 
+```
+screen -S ufw
+```
+
+To create a UFW URL, run: 
+
+```
+sudo ufw allow 3000
+sudo ufw allow 5000
+```
+That's all 
+
+3000 is your frontend port, while 5000 is your backend port. 
+
+So to access your website, you need to: 
+
+```
+http://YOUR.VPS.IP:3000 // for frontend
+http://YOUR.VPS.IP:5000 // for backend
+```
+
+You can use your backend url to call roma using REST API. 
+
+Here's a tutorial on that: 
 
 If you run into any problems, message me on X:_hadeelen 
 
